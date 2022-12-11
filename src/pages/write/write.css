@@ -1,0 +1,76 @@
+.write {
+	padding-top: 3.125rem;
+}
+
+.writeImg {
+	margin-left: 9.375rem;
+	width: 70vw;
+	height: 15.625rem;
+	border-radius: .625rem;
+	object-fit: cover;
+}
+
+
+.writeForm {
+    position: relative;
+}
+
+.writeFormGroup {
+	margin-left: 9.375rem;
+	display: flex;
+	align-items: center;
+}
+
+/* .uploadIconLabel {
+    margin-left: 1rem;
+} */
+
+.writeIcon {
+	width: 1.5625rem;
+	height: 1.5625rem;
+	display: flex;
+	border: 1px solid rgb(4, 177, 33);
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	/* color: rgba(121, 118, 118, 1); */
+	color: rgb(4, 177, 33);
+	cursor: pointer;
+}
+
+.writeInput {
+	font-size: 1.5rem;
+	border: none;
+	padding: 1.25rem;
+	width: 70vw;
+}
+
+.writeInput:focus {
+    outline: none;
+}
+
+.writeText {
+    font-size: 1.25rem;
+	height: 100vh;
+}
+
+.writeSubmit {
+    position: absolute;top: 1.25rem;
+    right: 3.125rem;
+    color: chartreuse;
+    background-color: #565656;
+    padding: .625rem;
+    border: 2px solid chartreuse;
+    border-radius: .15rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.writeSubmit:hover {
+    color: #565656  ;
+    background-color: chartreuse;
+    border: 2px solid #565656 ;
+    transition: all ease-in .3s;
+}
